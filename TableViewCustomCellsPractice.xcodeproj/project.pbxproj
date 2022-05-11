@@ -13,6 +13,10 @@
 		3FC2A662282B16EF006B985A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2A660282B16EF006B985A /* Main.storyboard */; };
 		3FC2A664282B16F1006B985A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2A663282B16F1006B985A /* Assets.xcassets */; };
 		3FC2A667282B16F1006B985A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2A665282B16F1006B985A /* LaunchScreen.storyboard */; };
+		3FC2A66F282B186E006B985A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2A66E282B186E006B985A /* MyTableViewCell.swift */; };
+		3FC2A671282B1B3A006B985A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2A670282B1B3A006B985A /* Car.swift */; };
+		3FC2A673282B1C49006B985A /* CarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2A672282B1C49006B985A /* CarsData.swift */; };
+		3FC2A675282B1EC6006B985A /* InClassActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2A674282B1EC6006B985A /* InClassActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3FC2A663282B16F1006B985A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC2A666282B16F1006B985A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC2A668282B16F1006B985A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC2A66E282B186E006B985A /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		3FC2A670282B1B3A006B985A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		3FC2A672282B1C49006B985A /* CarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsData.swift; sourceTree = "<group>"; };
+		3FC2A674282B1EC6006B985A /* InClassActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				3FC2A65A282B16EF006B985A /* AppDelegate.swift */,
 				3FC2A65C282B16EF006B985A /* SceneDelegate.swift */,
 				3FC2A65E282B16EF006B985A /* ViewController.swift */,
+				3FC2A66E282B186E006B985A /* MyTableViewCell.swift */,
+				3FC2A670282B1B3A006B985A /* Car.swift */,
+				3FC2A672282B1C49006B985A /* CarsData.swift */,
+				3FC2A674282B1EC6006B985A /* InClassActivityViewController.swift */,
 				3FC2A660282B16EF006B985A /* Main.storyboard */,
 				3FC2A663282B16F1006B985A /* Assets.xcassets */,
 				3FC2A665282B16F1006B985A /* LaunchScreen.storyboard */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC2A66F282B186E006B985A /* MyTableViewCell.swift in Sources */,
 				3FC2A65F282B16EF006B985A /* ViewController.swift in Sources */,
+				3FC2A671282B1B3A006B985A /* Car.swift in Sources */,
 				3FC2A65B282B16EF006B985A /* AppDelegate.swift in Sources */,
+				3FC2A673282B1C49006B985A /* CarsData.swift in Sources */,
+				3FC2A675282B1EC6006B985A /* InClassActivityViewController.swift in Sources */,
 				3FC2A65D282B16EF006B985A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
